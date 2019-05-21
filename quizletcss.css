@@ -41,7 +41,7 @@ body{
     fill: white;
     color: white;
     }
-.upgrade{
+.upgrade {
     color: white;
     text-align: center;
     padding: 10px;
@@ -107,6 +107,8 @@ body{
     background: white;
     padding: 20px;
     box-sizing: border-box;
+    box-shadow: 0 7px 7px 0 rgba(31, 31, 31, 0.2);
+    border-radius: 5px;
 }
 .t-right .top-right img {
     width: 20%;
@@ -123,27 +125,45 @@ p{
     margin: 0;
     font-size: 30px;
 }
-button{
-    padding: 20px 65px;
-    color: white;
-    background: #3ccfcf;
+.O{
+    width: 318px;
+    height: 156px;
+    background: white;
+    box-shadow: 0 7px 7px 0 rgba(143, 143, 143, 0.2);
+    border-radius: 5px;
 }
-
-
-
-
-
+.O2{
+    display: inline-block;
+}
+.O3{
+    display: inline-block;
+    margin-left: 10px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover .upgrade{
+ background: rgb(255, 205, 31);
+ color: rgb(61, 61, 61);
+}
 .content-right{
     display: inline-block;
     width: 100%;
     height: 624px;
-    background: white;
     margin-top: 30px;
 }
-
+span a{
+    padding: 20px 65px;
+    color: white;
+    background: #3ccfcf;
+    border: none;
+}
+span a:hover{
+    background: rgb(255, 205, 31);
+    color: rgb(61, 61, 61);
+}
 ul li a{
-    color: black;
-    text-decoration: none;
     padding: 16px 20px 16px 20px;
     display: inline-block;
     width: 100%;
@@ -198,4 +218,12 @@ ul{
     color: #555;
     font-size: 13px;
     letter-spacing: 2px;
+}
+h4{
+    letter-spacing: 3px;
+    color: #555;
+}
+a:hover .O{
+    border-bottom: 0.3125rem solid rgb(255, 205, 31);
+    box-sizing: border-box;
 }
